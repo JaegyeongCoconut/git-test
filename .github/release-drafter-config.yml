@@ -3,11 +3,11 @@ tag-template: 'v$NEXT_PATCH_VERSION'
 
 categories:
   - title: "✨ Feat"
-    - labels: "✨ Feat"
+    labels: "✨ Feat"
   - title: "🔨 Refactor"
-    - labels: "🔨 Refactor"
+    labels: "🔨 Refactor"
   - title: "🧨 Fix"
-    - label: "🧨 Fix"
+    label: "🧨 Fix"
 change-template: "- $TITLE #$NUMBER @$AUTHOR "
 template: |
   ## Changes
