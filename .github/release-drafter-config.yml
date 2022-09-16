@@ -1,12 +1,12 @@
-name-template: 'v$NEXT_MINOR_VERSION'
-tag-template: 'v$NEXT_MINOR_VERSION'
+name-template: 'v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
 
 categories:
-  - title: "Feat"
+  - title: "✨ Feat"
     labels: "✨ Feat"
-  - title: "Refactor"
+  - title: "🔨 Refactor"
     labels: "🔨 Refactor"
-  - title: "Fix"
+  - title: "🧨 Fix"
     label: "🧨 Fix"
 change-template: "- $TITLE #$NUMBER @$AUTHOR "
 template: |
