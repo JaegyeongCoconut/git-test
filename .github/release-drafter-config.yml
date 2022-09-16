@@ -1,24 +1,14 @@
-name-template: "v$RESOLVED_VERSION 🌈"
-tag-template: "v$RESOLVED_VERSION"
+name-template: 'v$NEXT_MINOR_VERSION'
+tag-template: 'v$NEXT_MINOR_VERSION'
+
 categories:
-  - title: "✨ Feat"
-    labels: "feature"
-  - title: "🔨 Refactor"
-    labels: "refactor"
-  - title: "🧨 Fix"
-    label: "fix"
+  - title: "Feat"
+    labels: "✨ Feat"
+  - title: "Refactor"
+    labels: "🔨 Refactor"
+  - title: "Fix"
+    label: "🧨 Fix"
 change-template: "- $TITLE #$NUMBER @$AUTHOR "
-version-resolver:
-  major:
-    labels:
-      - "major"
-  minor:
-    labels:
-      - "minor"
-  patch:
-    labels:
-      - "patch"
-  default: patch
 template: |
   ## Changes
 
