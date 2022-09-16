@@ -8,5 +8,4 @@ asdf
 asdf
 asdfasd
 123asd
-ㅁㄴㅇ
-asdasd
+
