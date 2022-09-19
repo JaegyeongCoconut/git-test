@@ -15,8 +15,10 @@ categories:
   - title: "🙋‍♂️ Question"
     labels: "🙋‍♂️ Question"
 
+category-template: "### $TITLE"
 change-template: "- $TITLE #$NUMBER @$AUTHOR "
 template: |
-  ## Changes
+  ## Summary
 
+  ## Changes
   $CHANGES
